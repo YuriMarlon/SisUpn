@@ -1,0 +1,90 @@
+body{    
+    font: normal 11px "Trebuchet MS";    
+}
+.navbar{
+    margin-bottom: 0px;
+}
+.login{
+   background: #FDBA30;
+   height: 100%;
+}
+
+/******** Navbar TOP**********/
+.navbar-brand b{
+    color: #FDBA30;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FDBB2F;
+}
+.navbar-default {
+    background: linear-gradient(to bottom, #404041 47%,#111111 49%);
+}
+.salir2 {
+    background: transparent url(../imagenes/icon/icon-salir.png) left center no-repeat;
+}
+.perfil{
+    background: transparent url(../imagenes/icon/icon-misdatos.png) left center no-repeat;
+}
+.malla{
+    background: transparent url(../imagenes/icon/icon-documentos.png) left center no-repeat;
+}
+.navbar-fixed-top .nav > li > a:hover {
+    color: #FFF;
+    /* text-decoration: none; */
+    background-color: transparent;
+}
+.usuario_descripcion{
+    float: right;
+    padding: 9px;
+}
+/************ Navar Boton ******************/
+.navbar-inner{
+    background: #333
+}
+.navbar .nav > li {
+    display: block;
+    float: left;
+}
+.navbar {   
+    min-height: 0px;
+    border-bottom-width: 0px;
+}
+.navbar li a{
+    color: #fff;
+}
+.navbar-fixed-bottom .nav > li > a:hover {
+    color: #FDBB2F;
+    /* text-decoration: none; */
+    background-color: transparent;
+}
+.navbar-fixed-bottom .nav > li > a {
+    color: #fff;
+}
+/******* Perfil ******/
+h1 {
+    color: #FCC044;
+    background: transparent url(../imagenes/bgh1.png) left bottom repeat-x;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 16px;
+}
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    /* border-radius: 3px; */
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+}

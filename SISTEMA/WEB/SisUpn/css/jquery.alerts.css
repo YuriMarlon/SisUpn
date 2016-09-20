@@ -1,0 +1,129 @@
+#popup_container {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */	
+	color: #333;
+		
+	background: -webkit-gradient(linear, left top, left bottom, from(#F4F4F4), to(#E6E6E6));
+	background: -moz-linear-gradient(top,  #F4F4F4, #E6E6E6);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F4F4F4', endColorstr='#E6E6E6');
+	
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	
+	box-shadow: 0px 0px 3px 3px #999;
+}
+
+#popup_title {	
+	font-size: 12px;
+	font-weight: 600;
+	
+	width:450px;
+	height: 28px;
+	text-align: center;
+	line-height: 2.4em;
+	color: #FFF;
+	
+	background: #404041; /* Old browsers */
+	background: -moz-linear-gradient(top,  #404041 47%, #111111 49%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(47%,#404041), color-stop(49%,#111111)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #404041 47%,#111111 49%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #404041 47%,#111111 49%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #404041 47%,#111111 49%); /* IE10+ */
+	background: linear-gradient(to bottom,  #404041 47%,#111111 49%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#404041', endColorstr='#111111',GradientType=0 ); /* IE6-9 */
+	
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+
+#popup_content {
+	background: 16px 16px no-repeat url(warning-32-32.png);
+	padding: 22px 20px 12px 20px;
+	margin: 0em;
+}
+
+#popup_content.alert {
+	background-image: url(warning-32-32.png);
+}
+
+#popup_content.confirm {
+	background-image: url(important.gif);
+}
+
+#popup_content.prompt {
+	background-image: url(help.gif);
+}
+
+#popup_message 
+{
+	padding:0;
+	padding-left: 30px;
+	line-height: 1.5em;
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}
+#popup_ok {
+	
+}
+
+.app-button
+{	
+	border:0 !important;
+	/*border:1px #dadada solid;*/
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	-moz-box-shadow:0 1px 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.3);
+	box-shadow:0 1px 3px rgba(0,0,0,0.3);
+	display:inline-block;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	padding:4px 13px 3px;
+	text-align:center;
+	-moz-text-shadow:1px 1px 0 #fff;
+	-webkit-text-shadow:1px 1px 0 #fff;
+	text-shadow:1px 1px 0 #fff;
+	white-space:nowrap;
+	background:#efefef;
+	background:-moz-linear-gradient(top,#f5f5f5 0,#efefef 50%,#e5e5e5 51%,#C1C1C1 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#f5f5f5),color-stop(50%,#efefef),color-stop(51%,#e5e5e5),color-stop(100%,#C1C1C1));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5',endColorstr='#C1C1C1',GradientType=0);	
+	*padding-bottom:5px;
+	cursor:pointer;
+}
+
+.app-button:hover
+{	
+	/*border:1px #2C3610 solid;*/
+	-moz-box-shadow:0 1px 4px rgba(0,0,0,0.5);
+	-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.5);
+	/*box-shadow:0 1px 4px rgba(0,0,0,0.5);*/
+	color:#fff;
+	font-weight:normal;
+	text-decoration:none;
+	-moz-text-shadow:1px 1px 0 #000;
+	-webkit-text-shadow:1px 1px 0 #000;
+	text-shadow:1px 1px 0 #000;
+	background:#080808;	
+	background:-moz-linear-gradient(top,#585858 0,#373737 50%,#292929 51%,#080808 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#585858),color-stop(50%,#373737),color-stop(51%,#292929),color-stop(100%,#080808));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#585858',endColorstr='#080808',GradientType=0);	
+	cursor:pointer;
+}
